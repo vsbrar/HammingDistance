@@ -96,7 +96,7 @@ For example for HammingDistance library there is a tester called as HammingDista
 	Run the executable.
 	type 'HammingDistanceTester --help' for more tests usage.
 	
-Currently Failing Tests
+Current Failing Tests
 ------------------------------------------------------------------------------
 1. HammingDistanceTest, testIncorrectInput. Commented out!
 

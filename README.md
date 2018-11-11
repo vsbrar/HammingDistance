@@ -18,8 +18,8 @@ For more info on CMake visit https://cmake.org/.
 The cmake lists file can be found in the Makefiles directory of the particular layer.
 
 The code is made cross platform and can be build or run on any platform.
-As of now it is tested and builded on MacOSX platform only.
-The dependencies like googletest and boost and included in the project itself.
+As of now it is tested and built on MacOSX only.
+The dependencies like googletest and boost are included in the project itself.
 Utmost care has been taken to automate the build process as much as possible
 and a CMake build system is created for the ease.
 
@@ -62,7 +62,7 @@ Code Organisation
 
 1. Folder structure layout
 The code is organised into layers where each layer may or may not depend on other.
-This is done to provide abstraction and ease code management in version control.
+This is done to provide abstraction and ease of code management in version control.
 
 For example:
 The user of library will have no interest in including the library tester into his
@@ -96,7 +96,7 @@ For example for HammingDistance library there is a tester called as HammingDista
 	Run the executable.
 	type 'HammingDistanceTester --help' for more tests usage.
 	
-Tests Currently Failing
+Currently Failing Tests
 ------------------------------------------------------------------------------
 1. HammingDistanceTest, testIncorrectInput. Commented out!
 

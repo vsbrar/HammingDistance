@@ -11,10 +11,24 @@ HammingDistanceCalculator -h for help
 Example:
 HammingDistanceCalculator 1011 1011
 
-Building
-------------------------------------------------------------------------------
+# Setting up development environment
+#### CMake
 The system uses CMake as build generator.
 For more info on CMake visit https://cmake.org/.
+
+Install and build CMake to your development environment as below:
+```bash
+wget https://cmake.org/files/v3.18/cmake-3.18.0.tar.gz
+tar xzf cmake-3.18.0.tar.gz
+cd cmake-3.18.0
+./bootstrap
+make 
+sudo make install
+cmake --version
+```
+
+Building
+------------------------------------------------------------------------------
 The cmake lists file can be found in the Makefiles directory of the particular layer.
 
 The code is made cross platform and can be build or run on any platform.
